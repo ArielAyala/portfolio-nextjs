@@ -55,7 +55,7 @@ const AboutSection = () => {
         <Image src="/images/about-image.png" width={500} height={500} alt={""} />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
-          <p className="text-base lg:text-lg">
+          <p className="text-base lg:text-lg text-justify">
             I am a full stack web developer with a passion for creating
             interactive and responsive web applications. I have experience
             working with NetCore/C#, Angular, SQL Server, MySQL, Ionic, Javascript, Typescript and Git. I am a quick learner and I am always
