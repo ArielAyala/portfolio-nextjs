@@ -1,7 +1,8 @@
 "use client";
 import React, { useTransition, useState } from "react";
 import Image from "next/image";
-import aboutImage from '../../../public/images/about-image.png';
+import aboutImage from 'images/about-image.png';
+//import aboutImage from '../../../public/images/about-image.png';
 import TabButton from "./TabButton";
 
 
