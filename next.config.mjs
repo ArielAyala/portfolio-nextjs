@@ -4,7 +4,12 @@ const nextConfig = {
   basePath: "/portfolio-nextjs",
   assetPrefix: '/portfolio-nextjs/',
   images: {
-    domains: ["arielayala.github.io"],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "**",
+      },
+    ],
   },
 };
 
