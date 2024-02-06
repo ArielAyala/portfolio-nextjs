@@ -4,6 +4,7 @@ const nextConfig = {
   basePath: "/portfolio-nextjs",
   assetPrefix: '/portfolio-nextjs/',
   images: {
+    disableStaticImages: true,
     remotePatterns: [
       {
         protocol: "http",
