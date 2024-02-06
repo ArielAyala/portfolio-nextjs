@@ -2,7 +2,7 @@
 import React, { useTransition, useState } from "react";
 import Image from "next/image";
 import TabButton from "./TabButton";
-import aboutImage from '/images/about-image.jpg'
+import aboutImage from '/portfolio-nextjs/images/about-image.jpg'
 
 
 
