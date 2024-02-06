@@ -9,7 +9,7 @@ const projectsData = [
   {
     id: 1,
     title: "Personal website - Netx Js",
-    description: "My personal webside to show my projects and professional information - Stack: Next Js",
+    description: "My personal website to showcase my projects and professional information - Stack: Next js",
     image: `${projectsImagesPath}personal-website.jpg`,
     tag: ["All", "Web"],
     gitUrl: "https://github.com/ArielAyala/portfolio-nextjs",
