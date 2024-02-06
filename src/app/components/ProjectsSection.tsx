@@ -8,6 +8,15 @@ const projectsImagesPath = '/images/projects/';
 const projectsData = [
   {
     id: 1,
+    title: "Personal website - Netx Js",
+    description: "My personal webside to show my projects and professional information - Stack: Next Js",
+    image: `${projectsImagesPath}personal-website.jpg`,
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/ArielAyala/portfolio-nextjs",
+    previewUrl: "https://arielayala.me/",
+  },
+  {
+    id: 2,
     title: "Loan installments calculator- French system",
     description: "A Simple and User-Friendly Loan Installment Calculator - French System - Stack: Angular",
     image: `${projectsImagesPath}french_system_calculator.jpg`,
@@ -16,7 +25,7 @@ const projectsData = [
     previewUrl: "https://arielayala.github.io/calculate-loan-installments-french-system/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Store using Angular 17",
     description: "Simulation of a web store application built using Angular 17",
     image: `${projectsImagesPath}store-angular-17.jpg`,
@@ -25,7 +34,7 @@ const projectsData = [
     previewUrl: "https://arielayala.github.io/store-angular-17/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Crypto tracker",
     description: "App developed using React Native, to show information about cryptocurrencies",
     image: `${projectsImagesPath}crypto-tracker.jpg`,
