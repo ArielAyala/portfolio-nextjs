@@ -4,12 +4,13 @@ import ProjectCard from "./ProjectCard";
 import ProjectTag from "./ProjectTag";
 import { motion, useInView } from "framer-motion";
 
+const projectsImagesPath = '/images/projects/';
 const projectsData = [
   {
     id: 1,
     title: "Loan installments calculator- French system",
     description: "A Simple and User-Friendly Loan Installment Calculator - French System - Stack: Angular",
-    image: "/portfolio-nextjs/images/projects/french_system_calculator.jpg",
+    image: `${projectsImagesPath}french_system_calculator.jpg`,
     tag: ["All", "Web"],
     gitUrl: "https://github.com/ArielAyala/calculate-loan-installments-french-system",
     previewUrl: "https://arielayala.github.io/calculate-loan-installments-french-system/",
@@ -18,7 +19,7 @@ const projectsData = [
     id: 2,
     title: "Store using Angular 17",
     description: "Simulation of a web store application built using Angular 17",
-    image: "/portfolio-nextjs/images/projects/store-angular-17.jpg",
+    image: `${projectsImagesPath}store-angular-17.jpg`,
     tag: ["All", "Web"],
     gitUrl: "https://github.com/ArielAyala/store-angular-17",
     previewUrl: "https://arielayala.github.io/store-angular-17/",
@@ -27,7 +28,7 @@ const projectsData = [
     id: 3,
     title: "Crypto tracker",
     description: "App developed using React Native, to show information about cryptocurrencies",
-    image: "/portfolio-nextjs/images/projects/crypto-tracker.jpg",
+    image: `${projectsImagesPath}/images/projects/crypto-tracker.jpg`,
     tag: ["All", "Mobile"],
     gitUrl: "https://github.com/ArielAyala/crypto-tracker-react-native",
     previewUrl: "",
