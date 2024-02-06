@@ -9,7 +9,7 @@ const projectsData = [
     id: 1,
     title: "Loan installments calculator- French system",
     description: "A Simple and User-Friendly Loan Installment Calculator - French System - Stack: Angular",
-    image: "/images/projects/french_system_calculator.jpg",
+    image: "/portfolio-nextjs/images/projects/french_system_calculator.jpg",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/ArielAyala/calculate-loan-installments-french-system",
     previewUrl: "https://arielayala.github.io/calculate-loan-installments-french-system/",
