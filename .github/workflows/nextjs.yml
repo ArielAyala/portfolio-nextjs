@@ -90,5 +90,10 @@ jobs:
     needs: build
     steps:
       - name: Deploy to GitHub Pages
+        run: |
+          echo "NEXT_PUBLIC_EMAILJS_SERVICE_ID=${{ secrets.NEXT_PUBLIC_EMAILJS_SERVICE_ID }}" >> $GITHUB_ENV
+          echo "NEXT_PUBLIC_PUBLIC_KEY=${{ secrets.NEXT_PUBLIC_PUBLIC_KEY }}" >> $GITHUB_ENV
+              
+      - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
