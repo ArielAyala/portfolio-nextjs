@@ -4,7 +4,7 @@ const nextConfig = {
   basePath: "/portfolio-nextjs",
   assetPrefix: "/portfolio-nextjs/",
   images: {
-    disableStaticImages: true,
+    loader: "default",
   },
 };
 
