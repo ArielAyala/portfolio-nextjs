@@ -28,7 +28,7 @@ const projectsData = [
     id: 3,
     title: "Crypto tracker",
     description: "App developed using React Native, to show information about cryptocurrencies",
-    image: `${projectsImagesPath}/images/projects/crypto-tracker.jpg`,
+    image: `${projectsImagesPath}projects/crypto-tracker.jpg`,
     tag: ["All", "Mobile"],
     gitUrl: "https://github.com/ArielAyala/crypto-tracker-react-native",
     previewUrl: "",
