@@ -8,10 +8,12 @@ import emailjs from "@emailjs/browser";
 
 const EmailSection = () => {
   const [emailSubmitted, setEmailSubmitted] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const form: any = useRef();
 
   const handleSubmit = async (e: any) => {
     e.preventDefault();
+    setIsSubmitting(true);
 
     const SERVICE_ID = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID;
     const TEMPLATE_ID = "template_oekg54c";
@@ -28,12 +30,15 @@ const EmailSection = () => {
           if (result.text === "OK") {
             setEmailSubmitted(true);
           }
+          setIsSubmitting(false);
         },
         (error) => {
           console.log(error.text);
+          setIsSubmitting(false);
         }
       );
     } else {
+      setIsSubmitting(false);
       console.error("Mail service not found");
     }
   };
@@ -102,9 +107,10 @@ const EmailSection = () => {
             </div>
             <button
               type="submit"
+              disabled={isSubmitting}
               className="bg-primary-500 hover:bg-primary-600 text-white font-medium py-2.5 px-5 rounded-lg w-full"
             >
-              Send Message
+              {isSubmitting ? "Sending..." : "Send message"}
             </button>
           </form>
         )}
