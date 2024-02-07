@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Ariel Ayala's Portfolio
+
+![GitHub last commit](https://img.shields.io/github/last-commit/ArielAyala/portfolio-nextjs)
+![GitHub license](https://img.shields.io/github/license/ArielAyala/portfolio-nextjs)
+
+A personal website showcasing Ariel Ayala's portfolio, built with Next.js. This site highlights various projects, providing a glimpse into Ariel's skills and expertise.
+
+## Technologies Used
+
+- [Next.js](https://nextjs.org/) - Version 14.1.0
+- [React](https://reactjs.org/) - Version ^18
+- [Framer Motion](https://www.framer.com/motion/) - Version ^11.0.3
+- [React Animated Numbers](https://www.npmjs.com/package/react-animated-numbers) - Version ^0.18.0
+- [React Type Animation](https://www.npmjs.com/package/react-type-animation) - Version ^3.2.0
+- [Heroicons for React](https://github.com/tailwindlabs/heroicons/tree/main/react) - Version ^2.1.1
+- [Email.js](https://www.emailjs.com/) - Version ^3.12.1
+
+## Development Dependencies
+
+- [Typescript](https://www.typescriptlang.org/) - Version ^5
+- [ESLint](https://eslint.org/) - Version ^8
+- [ESLint Config for Next.js](https://www.npmjs.com/package/eslint-config-next) - Version 14.1.0
+- [Tailwind CSS](https://tailwindcss.com/) - Version ^3.3.0
+- [Autoprefixer](https://www.npmjs.com/package/autoprefixer) - Version ^10.0.1
+- [PostCSS](https://postcss.org/) - Version ^8
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository: `git clone https://github.com/ArielAyala/portfolio-nextjs.git`
+2. Install dependencies: `npm install`
+3. Run the development server: `npm run dev`
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Production Deployment
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The production deployment can be viewed at [arielayala.me](https://arielayala.me).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Contact
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Feel free to reach out to Ariel Ayala for inquiries or collaborations:
 
-## Learn More
+- Email: [arielayalamail@gmail.com](mailto:arielayalamail@gmail.com)
+- LinkedIn: [Ariel Ayala](https://www.linkedin.com/in/ariel-ayala/)
+- Portfolio: [arielayala.me](https://arielayala.me)
 
-To learn more about Next.js, take a look at the following resources:
+## Inspiration
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project is inspired by [judygab's Next.js Portfolio](https://github.com/judygab/nextjs-portfolio).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Acknowledgments
 
-## Deploy on Vercel
+This project utilizes [Email.js](https://www.emailjs.com/) for the email service.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## License
+
+This project is licensed under the [MIT License](LICENSE).
